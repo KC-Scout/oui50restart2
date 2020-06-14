@@ -3,6 +3,7 @@ import Home from './HomeComponent';
 import { Switch, Route } from 'react-router-dom';
 import { ARTICLES } from '../shared/articles';
 import Header from './HeaderComponent';
+import Footer from './FooterComponent';
 
 class Main extends Component {
     constructor(props) {
@@ -23,6 +24,7 @@ class Main extends Component {
                 <Switch>
                     <Route path='/home' component={HomePage} />
                 </Switch>
+                <Footer />
             </React.Fragment>
         );
     };
