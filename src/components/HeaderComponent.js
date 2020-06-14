@@ -21,26 +21,39 @@ class Header extends Component {
     render() {
         return (
             <React.Fragment >
-                <Jumbotron fluid >
+                <Jumbotron fluid className="justify-content-start">
                     <div className="container">
-                        <div className="row">
-                            <div className="col logo">
-                                <img src="../assets/images/cropped-50ui.png" alt="50ui" width="25%"/>
+                        <div className="row ">
+                            <div className="col md-1">
+                                <img src="../assets/images/cropped-50ui.png" alt="50ui" width="25%" />
                             </div>
                         </div>
                     </div>
                 </Jumbotron>
-                <Nav>
-                    <NavItem>
-                        <NavLink to="/home">Home</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink to="/adventure">Adventure</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink to="/health">Health & Wellness</NavLink>
-                    </NavItem>
-                </Nav>
+                <Navbar light sticky="top" expand="md">
+                    <div className="container">
+                        <NavbarToggler onClick={this.toggleNav} />
+                        <Collapse isOpen={this.state.isNavOpen} navbar>
+                            <Nav navbar>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/home">
+                                        Home
+                                        </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/adventure">
+                                        Adventure
+                                        </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/health">
+                                        Health & Wellness
+                                        </NavLink>
+                                </NavItem>
+                            </Nav>
+                        </Collapse>
+                    </div>
+                </Navbar>
             </React.Fragment>
         );
     }
