@@ -32,16 +32,13 @@ class Header extends Component {
                 </Jumbotron>
                 <Nav>
                     <NavItem>
-                        <NavLink to="/home">Link</NavLink>
+                        <NavLink to="/home">Home</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink to="/home">Link</NavLink>
+                        <NavLink to="/adventure">Adventure</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink to="/home">Another Link</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink to="/home">Disabled Link</NavLink>
+                        <NavLink to="/health">Health & Wellness</NavLink>
                     </NavItem>
                 </Nav>
             </React.Fragment>
