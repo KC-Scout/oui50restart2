@@ -49,6 +49,8 @@ function WellnessCard({item}) {
     );
 }
 
+
+
 function Home(props) {
     return (
         <div className="container">
@@ -59,7 +61,10 @@ function Home(props) {
             </div>
             <div className="row">
                 <div className="col-6">
-                    <WellnessCard />
+                    <AdventureCard />                    
+                </div>
+                <div className="col-6">
+                    <WellnessCard />                    
                 </div>
             </div>
         </div>

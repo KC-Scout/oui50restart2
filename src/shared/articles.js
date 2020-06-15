@@ -30,7 +30,7 @@ export const ARTICLES = [
         id: 3,
         title: "This Vintage Train Car Takes You Through the Kentucky Countryside and Is Decked Out in 1940s Glamour",
         author: "Travel & Leisure",
-        image: "/assets/images/vintage_train.jpeg",
+        image: "./assets/images/vintage_train.jpg",
         featured: false,
         category: "adventure",
         contents: "Ladies and gentlemen, have we got an experience for you! The My Old Kentucky Dinner Train is a fine dining adventure that unfolds across the Kentucky countryside—and belongs on your bucket list.During a two- and - a - half - hour ride that departs from charming little Bardstown, passengers are treated to a gourmet meal in a glamorous 1940s dinner car decked out with all the vintage bells and whistles.Be still our hearts!The train’s menu, which changes with the seasons, includes a four - course dinner service($84.95 for adults; $54.95 for children) as well as a three - course lunch($69.95 for adults; $44.95 for children).We’re talking prime rib, pan - seared pork sirloin, apple dumplings, and more.But it’s not just the food or the chance to dress up a little that keeps people coming back from more.The train ride also covers 23 beautiful miles of scenic terrain: through Bernheim Forest, over a wooden trestle bridge, and past the Four Roses and Jim Beam distilleries.And then there’s the special excursions offered throughout the year.We’re particularly intrigued by the Murder Mystery Party Ride($109.95 for adults; $69.95 per child), which pairs a four - course dinner with a live murder mystery show.The 21 - plus Bourbon Excursions($109.95 per person) features a four - course meal along with a bourbon tasting hosted by a master distiller.There’s also still time to surprise mama with Mother’s Day ride on May 12. Each mother receives a rose and a special dessert after the three - course lunch.Tickets can be purchased at KYDinnerTrain.com or by calling(502) 348 - 7300.All aboard, y’all!"
@@ -39,7 +39,7 @@ export const ARTICLES = [
     id: 4,
     title: "Seat Etiquette: 'Ask If It's Ok' to Recline",
     author: "Thomas Pallini",
-        image: "/assets/images/DeltaCEO.jpeg",
+        image: "./assets/images/DeltaCEO.jpg",
     featured: false,
     category: "adventure",
     contents: "The CEO of the second-largest airline in the world says passengers should ask permission when they recline their seat.Delta CEO Ed Bastian said in an interview with CNBC he believes that passengers on planes should make sure it's alright with the passenger behind you before reclining.The proper thing to do if you recline into somebody is that you ask if it's OK first and then you do it,' Bastian said in an interview on Squawk Box.The question came in response to a now- viral video of an American Airlines passenger berating the person in front of him for reclining her seat.The angry passenger went as far as to punch the back of her seat repeatedly in protest of the recline, sparking debate as to whether passengers should recline their seats if there is someone behind them.Reclining a seat greatly reduces the amount of available space for the person behind and may prevent them from doing tasks such as working on a laptop.The action often has a ripple effect subsequently leading further passengers down the line to recline their seats to salvage any remaining open space, which ultimately has an adverse effect on those in seats which cannot or have limited recline."
@@ -48,7 +48,7 @@ export const ARTICLES = [
     id: 5,
     title: "Nevada's 365-mile Death Drive Is One of the Best Road Trips in the State",
     author: "Andrea Romano",
-    image: "/assets/images/deathvalley.jpeg",
+    image: "./assets/images/deathvalley.jpg",
     featured: false,
     category: "adventure",
     contents: "According to Only In Your State, Nevada’s 365-mile Death Drive is one of the state’s best road trips, which takes you to some of the most beautiful views that Southern Nevada has to offer.Even though it will show you some of the best natural parts of the state, it’s also fairly convenient to get to. The loop takes drivers from Las Vegas to Death Valley (hence, the name Death Drive) and back again. Keep in mind, there are many routes you can take for the Death Drive.According to Travel Nevada, people usually begin the drive by heading from Las Vegas to Pahrump, which is about two hours.On this leg of the journey, you’ll be able to visit the springs at Spring Mountain Ranch State Park and take in the scenery at Red Rock Canyon National Conservation Area."
@@ -57,7 +57,7 @@ export const ARTICLES = [
     id: 6,
     title: "What to Pack for Two Weeks in Europe",
     author: "Sahar Aman",
-    image: "/assets/images/italy.jpeg",
+    image: "./assets/images/italy.jpeg",
     featured: false,
     category: "adventure",
     contents: "Why travel with a capsule wardrobe?Visiting a new destination is always exciting but the hassle of getting there isn’t always fun. Airlines frequently update baggage rules and weight allowances, it’s part of the journey but it can make travel a little stressful at times. A capsule wardrobe will allow you to pack efficiently and lightly. You won’t need to worry about whether you’re taking too little or too much. Some capsule wardrobes will even fit into a carry-on, taking away the hassle of having to check-in luggage!Top tips for creating a capsule wardrobe for Europe: Choose basic separates in neutral colours.Pack things that you will wear more than once in a number of ways.For example, a tank top could be worn during the day but also in the evening with a nice pair of shoes and an accessory.Nail the basic wardrobe and then add a few other seasonal items.For example, shorts or sundresses for the summer, a scarf for layering during autumn or sprucing up an outfit in the evening.Clothing: Europe enjoys spring, summer, autumn and winter! While the the summers can be baking hot, the winters can get rather cold and chilly, but autumn and spring are mild and pleasant.If you’re travelling in winter, you’ll need to take a warm coat and likewise, if you’re visiting in the the summer, leave your fleece lined boots behind.Compression bags make packing for longer trips easier.Order our favourites here."
