@@ -42,3 +42,7 @@
     background-image: linear-gradient(black, black, black);
     text-align: left;
 }
+.site-footer{
+  background-color: black;
+  color: white;
+}

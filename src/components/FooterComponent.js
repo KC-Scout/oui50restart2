@@ -17,7 +17,7 @@ function Footer(props) {
                         <img src="../assets/images/cropped-50ui-300x175.png"/>
                     </div>
                     <div className="col-sm-3 text-center">
-                        <h5>Follow Us!</h5>
+                        <h5 id="footer">Follow Us!</h5>
                     </div>
                 </div>
             </div>
