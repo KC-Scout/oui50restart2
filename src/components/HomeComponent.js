@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
-function RenderCard({item}) {
+function FeaturedCard({item}) {
     const description = item.contents.substr(0, 150);
     return (
         <Card>
@@ -19,7 +19,7 @@ function Home(props) {
         <div className="container">
             <div className="row">
                 <div className="col m-1">
-                    <RenderCard item={props.article}/>
+                    <FeaturedCard item={props.article}/>
                 </div>
             </div>
         </div>
