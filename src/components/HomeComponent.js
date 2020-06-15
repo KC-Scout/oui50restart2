@@ -56,14 +56,17 @@ function Home(props) {
         <div className="container">
             <div className="row">
                 <div className="col m-1">
+                    <h2>Our Featured Article</h2>
                     <FeaturedCard item={props.article}/>
                 </div>
             </div>
             <div className="row">
                 <div className="col-6">
+                    <h4>Adventure</h4>
                     <AdventureCard />                    
                 </div>
                 <div className="col-6">
+                    <h4>Health and Wellness</h4>
                     <WellnessCard />                    
                 </div>
             </div>
