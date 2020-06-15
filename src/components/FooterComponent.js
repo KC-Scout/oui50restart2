@@ -18,7 +18,7 @@ function Footer(props) {
                     </div>
                     <div className="col-sm-3 text-center">
                         <h5 id="footer">Follow Us!</h5>
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
