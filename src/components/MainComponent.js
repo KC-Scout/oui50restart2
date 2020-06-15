@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Home from './HomeComponent';
 import { Switch, Route } from 'react-router-dom';
 import { ARTICLES } from '../shared/articles';
+import Header from './HeaderComponent';
+import Footer from './FooterComponent';
 
 class Main extends Component {
     constructor(props) {
@@ -17,11 +19,13 @@ class Main extends Component {
             );
         }
         return (
-            <div>
+            <React.Fragment>
+                <Header />
                 <Switch>
                     <Route path='/home' component={HomePage} />
                 </Switch>
-            </div>
+                <Footer />
+            </React.Fragment>
         );
     };
 }
