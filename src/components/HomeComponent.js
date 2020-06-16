@@ -1,17 +1,20 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import { ARTICLES } from '../shared/articles';
 
 function FeaturedCard({item}) {
     const description = item.contents.substr(0, 150);
     return (
-        <Card>
-            <CardImg src={item.image} alt={item.name} />
-            <CardBody>
-                <CardTitle>{item.title}</CardTitle>
-                <CardText>{description}...</CardText>
-            </CardBody>
-        </Card>
+        <Link>
+            <Card key={item.id}>
+                <CardImg src={item.image} alt={item.name} />
+                <CardBody>
+                    <CardTitle>{item.title}</CardTitle>
+                    <CardText>{description}...</CardText>
+                </CardBody>
+            </Card>
+        </Link>
     );
 }
 
