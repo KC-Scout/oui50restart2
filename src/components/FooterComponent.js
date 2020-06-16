@@ -14,7 +14,7 @@ function Footer(props) {
                         </ul>
                     </div>
                     <div className="col-6 col-sm-4 text-center">
-                        <img src="../assets/images/cropped-50ui-300x175.png"/>
+                        <img src="../assets/images/cropped-50ui-300x175.png" alt="Oui50 Logo"/>
                     </div>
                     <div className="col-sm-3 text-center">
                         <h5 id="footer">Follow Us!</h5>

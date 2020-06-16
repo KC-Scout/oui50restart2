@@ -33,7 +33,7 @@ class Main extends Component {
                 <Switch>
                     <Route path='/home' component={HomePage} />
                     <Route path='/wellness' component={Wellness} />
-                    <Route path='/directory/:articleId' component={ArticlePage} />
+                    <Route path='/wellness/:article.id' component={ArticlePage} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />
