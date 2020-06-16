@@ -3,10 +3,10 @@ import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { ARTICLES } from '../shared/articles';
 
-function FeaturedCard({item}) {
+function FeaturedCard({ item }) {
     const description = item.contents.substr(0, 150);
     return (
-        <Link>
+        <Link to="wellness/`{item.id}`">
             <Card key={item.id}>
                 <CardImg src={item.image} alt={item.name} />
                 <CardBody>
@@ -18,7 +18,7 @@ function FeaturedCard({item}) {
     );
 }
 
-function AdventureCard({item}) {
+function AdventureCard({ item }) {
     const chooseCat = ARTICLES.filter(article => article.category.includes("adventure"));
     const randomNum = Math.floor(Math.random() * Math.floor(3));
     const randomFeature = chooseCat[randomNum];
@@ -35,7 +35,7 @@ function AdventureCard({item}) {
     );
 }
 
-function WellnessCard({item}) {
+function WellnessCard({ item }) {
     const chooseCat = ARTICLES.filter(article => article.category.includes("wellness"));
     const randomNum = Math.floor(Math.random() * Math.floor(3));
     const randomFeature = chooseCat[randomNum];
@@ -60,17 +60,17 @@ function Home(props) {
             <div className="row">
                 <div className="col m-1">
                     <h2>Our Featured Article</h2>
-                    <FeaturedCard item={props.article}/>
+                    <FeaturedCard item={props.article} />
                 </div>
             </div>
             <div className="row">
                 <div className="col-6">
                     <h4>Adventure</h4>
-                    <AdventureCard />                    
+                    <AdventureCard />
                 </div>
                 <div className="col-6">
                     <h4>Health and Wellness</h4>
-                    <WellnessCard />                    
+                    <WellnessCard />
                 </div>
             </div>
         </div>

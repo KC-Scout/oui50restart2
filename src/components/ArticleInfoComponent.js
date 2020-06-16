@@ -1,4 +1,4 @@
-
+import React from 'react';
 import { Card, CardImg, CardText, CardBody} from "reactstrap";
 
 function RenderArticle({ article }) {

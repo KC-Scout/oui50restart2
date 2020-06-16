@@ -7,7 +7,7 @@ import { ARTICLES } from '../shared/articles';
 function RenderDirectoryItem({ article }) {
     return (
         <Card>
-            <Link to={`/directory/${article.id}`}>
+            <Link to={`/wellness/${article.id}`}>
                 <CardTitle>{article.title}</CardTitle>
                 <CardImg width="100%" src={article.image} />
             </Link>
