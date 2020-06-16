@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody} from "reactstrap";
+import { React } from 'react';
 
 function RenderArticle({ article }) {
     return (
@@ -14,18 +15,18 @@ function RenderArticle({ article }) {
     );
 }
 
-function ArticleInfo(props) {
-    if (props.article) {
+function ArticleInfo({ article }) {
+    if (article) {
         return (
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <h2>{props.article.name}</h2>
+                        <h2>{article.name}</h2>
                         <hr />
                     </div>
                 </div>
                 <div className="row">
-                    <RenderArticle article={props.article} />
+                    <RenderArticle article={article} />
                 </div>
             </div>
         );
