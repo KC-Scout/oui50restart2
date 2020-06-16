@@ -4,6 +4,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import { ARTICLES } from '../shared/articles';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
+import Wellness from './WellnessDirectory';
 
 class Main extends Component {
     constructor(props) {
@@ -23,6 +24,7 @@ class Main extends Component {
                 <Header />
                 <Switch>
                     <Route path='/home' component={HomePage} />
+                    <Route path='/wellness' component={Wellness} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />
