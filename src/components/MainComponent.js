@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Home from './HomeComponent';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route, Redirect, BrowserRouter } from 'react-router-dom';
 import { ARTICLES } from '../shared/articles';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
@@ -28,16 +28,16 @@ class Main extends Component {
         }
 
         return (
-            <React.Fragment>
+            <BrowserRouter>
                 <Header />
                 <Switch>
                     <Route path='/home' component={HomePage} />
                     <Route path='/wellness' component={Wellness} />
-                    <Route path='/wellness/:article.id' component={ArticlePage} />
+                    <Route path='/wellness/article.id' component={ArticlePage} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />
-            </React.Fragment>
+            </BrowserRouter>
         );
     };
 }
