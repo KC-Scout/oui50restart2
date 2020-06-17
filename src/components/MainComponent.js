@@ -21,9 +21,11 @@ class Main extends Component {
             );
         }
 
-        const ArticlePage = () => {
+        const ArticlePage = ({match}) => {
             return (
-                <ArticleInfo article={this.state.articles.filter(article => article.id)} />
+                <ArticleInfo 
+                    article={this.state.articles.filter(article => article.id === +match.params.article.id)[0]} 
+                />
             );
         }
 
@@ -33,7 +35,7 @@ class Main extends Component {
                 <Switch>
                     <Route path='/home' component={HomePage} />
                     <Route path='/wellness' component={Wellness} />
-                    <Route path='/wellness/article.id' component={ArticlePage} />
+                    <Route path='/wellness/:article.id' component={ArticlePage} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />
