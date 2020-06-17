@@ -4,8 +4,9 @@ import { Switch, Route, Redirect, BrowserRouter } from 'react-router-dom';
 import { ARTICLES } from '../shared/articles';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
-import Wellness from './WellnessDirectory';
+import WellnessDirectory from './WellnessDirectory';
 import ArticleInfo from './ArticleInfoComponent';
+import AdventureDirectory from './AdventureDirectory';
 
 class Main extends Component {
     constructor(props) {
@@ -34,7 +35,7 @@ class Main extends Component {
                 <Header />
                 <Switch>
                     <Route path='/home' component={HomePage} />
-                    <Route path='/wellness' component={Wellness} />
+                    <Route path='/wellness' component={WellnessDirectory} />
                     <Route path='/wellness/:article.id' component={ArticlePage} />
                     <Redirect to='/home' />
                 </Switch>
