@@ -6,7 +6,7 @@ import { ARTICLES } from '../shared/articles';
 function FeaturedCard({ item }) {
     const description = item.contents.substr(0, 150);
     return (
-            <Link to={`/wellness/:${item.id}`}>
+            <Link to={`/wellness/${item.id}`}>
                 <Card key={item.id}>
                     <CardImg src={item.image} alt={item.name} />
                     <CardBody>
