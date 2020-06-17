@@ -15,7 +15,6 @@ function RenderArticle({ article }) {
 }
 
 function ArticleInfo({ article }) {
-    if (article) {
         return (
             <div className="container">
                 <div className="row">
@@ -29,8 +28,6 @@ function ArticleInfo({ article }) {
                 </div>
             </div>
         );
-    }
-    return <div/>;
 }
 
 export default ArticleInfo;
