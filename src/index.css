@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header {
+  color: white;
+  /* border: 2px solid red; */
+}
+/* .oui50img {
+  border: 1px solid blue;
+} */
+/* .icons {
+  border: 1px solid blue;
+} */
+.bar {
+  background-color: grey;
+}
+.jumbotron {
+  margin: 0 !important;
+}
