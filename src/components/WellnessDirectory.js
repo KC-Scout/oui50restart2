@@ -28,6 +28,12 @@ function WellnessDirectory(props) {
     return (
         <div className="container" >
             <div className="row">
+                <div className="col">
+                    <h2>Health & Wellness Articles</h2>
+                    <hr />
+                </div>
+            </div>
+            <div className="row">
                 {directory}
             </div>
         </div>

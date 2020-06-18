@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardImg, CardimgOverlay, CardTitle, CardImgOverlay, Breadcrumb, BreadcrumbItem } from 'reactstrap';
+import { Card, CardImg, CardTitle } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { ARTICLES } from '../shared/articles';
 
@@ -27,6 +27,12 @@ function AdventureDirectory(props) {
 
     return (
         <div className="container" >
+            <div className="row">
+                <div className="col">
+                    <h2>Adventure Articles</h2> 
+                    <hr />
+                </div>
+            </div>
             <div className="row">
                 {directory}
             </div>
