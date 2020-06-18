@@ -58,7 +58,7 @@ function Home(props) {
   return (
     <div className="container">
       <div className="row">
-        <div className="col m-1">
+        <div className="col mt-2 m-1">
           <h2>Our Featured Article</h2>
           <FeaturedCard item={props.article} />
         </div>

@@ -29,7 +29,7 @@ class Header extends Component {
                             </div>
                             <div className="col-md-2 icons">
                                 <a className="btn btn-social-icon btn-twitter btn-light" href="http://twitter.com/oui_50"><i className="fa fa-twitter fa-lg" aria-hidden="true" /></a>{' '}
-                                <a className="btn btn-social-icon btn-google btn-light" href="https://www.youtube.com/channel/UCEvkWG11yDDvEkwaUJbRIRg"><i className="fa fa-youtube" /></a>
+                                <a className="btn btn-social-icon btn-google btn-light" href="https://www.youtube.com/channel/UCEvkWG11yDDvEkwaUJbRIRg"><i className="fa fa-youtube fa-lg" /></a>
                             </div>
                         </div>
                     </div>

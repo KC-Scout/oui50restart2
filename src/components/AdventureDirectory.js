@@ -28,7 +28,7 @@ function AdventureDirectory(props) {
     return (
         <div className="container" >
             <div className="row">
-                <div className="col">
+                <div className="col mt-2">
                     <h2>Adventure Articles</h2> 
                     <hr />
                 </div>
