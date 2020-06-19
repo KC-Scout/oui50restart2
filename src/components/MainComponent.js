@@ -18,7 +18,7 @@ class Main extends Component {
     render() {
         const HomePage = () => {
             return (
-                <Home article={this.state.articles.filter(article => article.featured)[0]} />
+                <Home article={this.state.articles.filter(article => article.featured)[0]}  />
             );
         }
 

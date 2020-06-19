@@ -25,14 +25,17 @@ function AdventureCard({ item }) {
   const randomNum = Math.floor(Math.random() * Math.floor(3));
   const randomFeature = chooseCat[randomNum];
   const description = randomFeature.contents.substr(0, 150);
+  console.log(randomFeature)
   return (
-    <Card>
-      <CardImg src={randomFeature.image} alt={randomFeature.name} />
-      <CardBody>
-        <CardTitle>{randomFeature.title}</CardTitle>
-        <CardText>{description}...</CardText>
-      </CardBody>
-    </Card>
+    <Link to={`/adventure`}>
+      <Card>
+        <CardImg src={randomFeature.image} alt={randomFeature.name} />
+        <CardBody>
+          <CardTitle>{randomFeature.title}</CardTitle>
+          <CardText>{description}...</CardText>
+        </CardBody>
+      </Card>
+    </ Link>
   );
 }
 
@@ -66,7 +69,7 @@ function Home(props) {
       <div className="row">
         <div className="col-6">
           <h4>Adventure</h4>
-          <AdventureCard />
+          <AdventureCard item={props.article}/>
         </div>
         <div className="col-6">
           <h4>Health and Wellness</h4>

@@ -18,9 +18,10 @@ function ArticleInfo({ article }) {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col mt-2">
+                    <div className="col mt-4">
                         <h2>{article.title}</h2>
                         <hr />
+                        <h5>Author: {article.author}</h5>
                     </div>
                 </div>
                 <div className="row">
